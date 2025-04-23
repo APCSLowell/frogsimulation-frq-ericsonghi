@@ -15,7 +15,7 @@ public class FrogSimulation
 	
 	public boolean simulate()
 	{ 
-		private int currentDist = 0;
+		int currentDist = 0;
 		int i = 0;
 		while(i < maxHops){
 			currentDist += hopDistance();
@@ -27,7 +27,6 @@ public class FrogSimulation
 			}
 		}
 		return false;
-
 	}
 	
 	public double runSimulations(int num)
